@@ -1,6 +1,6 @@
 {
-  "name": "react-vant",
-  "version": "3.3.5",
+  "name": "@edram/react-vant",
+  "version": "3.3.5-5",
   "description": "React Mobile UI Components base on Vant UI",
   "keywords": [
     "ui",
@@ -37,8 +37,8 @@
   "exports": {
     ".": {
       "node": {
-        "import": "./bundle/react-vant.es.js",
-        "require": "./bundle/react-vant.js"
+        "import": "./bundle/@edram/react-vant.es.js",
+        "require": "./bundle/@edram/react-vant.js"
       },
       "require": "./lib/index.js",
       "import": "./es/index.js",
@@ -56,8 +56,8 @@
     "./es/locale":"./es/locale/index.js"
   },
   "main": "./lib/index.js",
-  "jsdelivr": "./bundle/react-vant.min.js",
-  "unpkg": "./bundle/react-vant.min.js",
+  "jsdelivr": "./bundle/@edram/react-vant.min.js",
+  "unpkg": "./bundle/@edram/react-vant.min.js",
   "module": "./es/index.js",
   "typings": "./es/index.d.ts",
   "style": "./bundle/index.css",
